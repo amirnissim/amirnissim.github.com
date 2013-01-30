@@ -1,0 +1,80 @@
+body {
+    padding: 50px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+a {
+    color: inherit;
+}
+
+a:hover {
+    color: #08c;
+    text-decoration: none;
+}
+
+.footnote {
+    vertical-align: super;
+    font-size: 8px;
+}
+
+#gravatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.contact-item {
+    margin-right: 4px;
+}
+
+.contact-img {
+    width: 24px;
+    vertical-align: -1px;
+}
+
+.skills {
+    margin-left: 0;
+    list-style: none;
+}
+
+.skill {
+    display: inline-block;
+    background: rgba(230, 224, 224, 0.63);
+    padding: 2px 9px;
+    border-radius: 12px;
+    margin-top: 8px;
+}
+
+.skill img {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-size: 16px 16px;
+    vertical-align: -3px;
+}
+
+.cv-list {
+    list-style: none;
+}
+
+.cv-item-title {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.cv-item-when {
+    color: #cccccc;
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+.cv-item-content {
+
+}
+
+#footer a {
+    margin: 0 4px;
+}
