@@ -15,15 +15,32 @@ a:hover {
     text-decoration: none;
 }
 
+::selection{
+    background: #ED1556;
+    color: #fff;
+    text-shadow: none;
+}
+
 .footnote {
     vertical-align: super;
     font-size: 8px;
 }
 
-#gravatar {
-    width: 120px;
+#profile-picture {
+    display: inline-block;
+    min-width: 120px;
+    max-width: 120px;
     height: 120px;
     border-radius: 50%;
+    background-image: url(../img/gravatar.jpeg);
+    background-size: 120px 120px;
+}
+
+#summary{
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
 }
 
 .contact-item {
@@ -53,7 +70,7 @@ a:hover {
     width: 16px;
     height: 16px;
     background-size: 16px 16px;
-    vertical-align: -3px;
+    vertical-align: text-bottom;
 }
 
 .cv-list {
