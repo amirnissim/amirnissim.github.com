@@ -1,7 +1,7 @@
 body {
     padding: 50px;
     background-color: #272822;
-    color: white;
+    color: #f8f8f2;
 }
 
 section {
@@ -77,6 +77,10 @@ a:hover {
 
 .cv-list {
     list-style: none;
+}
+
+.cv-item {
+    margin-bottom: 25px;
 }
 
 .cv-item-title {
