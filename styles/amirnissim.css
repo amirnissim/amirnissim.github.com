@@ -1,5 +1,7 @@
 body {
     padding: 50px;
+    background-color: #272822;
+    color: white;
 }
 
 section {
@@ -11,7 +13,7 @@ a {
 }
 
 a:hover {
-    color: #08c;
+    color: #ED1556;
     text-decoration: none;
 }
 
@@ -32,8 +34,8 @@ a:hover {
     max-width: 120px;
     height: 120px;
     border-radius: 50%;
-    background-image: url(../img/gravatar.jpeg);
-    background-size: 120px 120px;
+    background-image: url(../img/gravatar.jpg);
+    background-size: cover;
 }
 
 #summary{
@@ -59,7 +61,7 @@ a:hover {
 
 .skill {
     display: inline-block;
-    background: rgba(230, 224, 224, 0.63);
+    background: rgba(255, 255, 255, 0.2);
     padding: 2px 9px;
     border-radius: 12px;
     margin-top: 8px;
