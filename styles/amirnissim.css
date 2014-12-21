@@ -44,7 +44,10 @@ a:hover {
     font-weight: 300;
     line-height: 25px;
 }
-
+#summary p {
+    font-style: italic;
+    line-height: 18px;
+}
 .contact-item {
     margin-right: 4px;
 }
@@ -100,4 +103,65 @@ a:hover {
 
 #footer a {
     margin: 0 4px;
+}
+
+.print {
+    display: none;
+}
+
+@media print {
+    /* arrrg bootstarp ! */
+    a[href]::after {
+        content: none;
+    }
+    .print {
+        display: block;
+    }
+    .hide-print {
+        display: none;
+    }
+    i.footnote,
+    .contact-item,
+    #gravatar-container,
+    #skills,
+    #important,
+    #footer-sep,
+    #footer {
+        display: none;
+    }
+
+    h1 {
+        font-size: 20px;
+        line-height: 1;
+    }
+    h2, h3 {
+        font-size: 16px;
+        line-height: 1;
+    }
+    h4 {
+        font-size: 14px;
+        line-height: 1;
+    }
+    #summary {
+        font-size: 14px;
+    }
+    #summary p {
+        margin-bottom: 0;
+        line-height: 18px;
+    }
+    .cv-item-title {
+        font-size: 12px;
+    }
+    p {
+        font-size: 11px;
+    }
+
+
+    section {
+        margin-bottom: 20px;
+    }
+    .cv-item {
+        margin-bottom: 15px;
+    }
+
 }
